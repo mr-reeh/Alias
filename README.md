@@ -73,3 +73,28 @@ Dalamud's dev plugin location at the build output folder, or drop it in your
    release's zip URL, DalamudApiLevel, etc. - happy to put that together too
    if you point me at how your existing repo (for Milk Meter / Flash / etc.)
    is structured.
+
+## Installing via a custom repo (`pluginmaster.json`)
+
+`pluginmaster.json` at the repo root is what you plug into Dalamud's
+Settings -> Experimental -> Custom Plugin Repositories. Once this repo is
+pushed to GitHub with that file at its root, the link to add is:
+
+```
+https://raw.githubusercontent.com/mr-reeh/Alias/main/pluginmaster.json
+```
+
+(swap `mr-reeh` for the actual GitHub account/org and `main` for your default
+branch if different).
+
+It points `DownloadLinkInstall`/`DownloadLinkUpdate` at
+`https://github.com/mr-reeh/Alias/releases/latest/download/latest.zip` -
+GitHub's "latest release" alias URL, which always resolves to whatever the
+newest tagged release's `latest.zip` asset is (that's the filename
+DalamudPackager/Dalamud.NET.Sdk produces, and what the CI workflow uploads).
+That means you don't need to touch the download links again after future
+releases - just bump `AssemblyVersion` (and `DalamudApiLevel` if it changes)
+in `pluginmaster.json` to match each new tag, commit, and push.
+
+`IconUrl` points at `Alias/images/icon.png` on the `main` branch, so it'll
+update automatically whenever you replace that file.
