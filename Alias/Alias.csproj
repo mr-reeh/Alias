@@ -1,0 +1,12 @@
+<Project Sdk="Dalamud.NET.Sdk/15.0.0">
+    <PropertyGroup>
+        <Version>0.1.0.0</Version>
+        <Description>Adds a reorderable list of command aliases for the chat box (extracted and expanded from Simple Tweaks' "Command Alias" tweak).</Description>
+        <Configurations>Debug;Release</Configurations>
+        <NoWarn>CS0649,CS0414,CS8618</NoWarn>
+        <AppendPlatformToOutputPath>false</AppendPlatformToOutputPath>
+    </PropertyGroup>
+    <ItemGroup>
+        <None Update="images\icon.png" CopyToOutputDirectory="Always" Condition="Exists('images\icon.png')"/>
+    </ItemGroup>
+</Project>

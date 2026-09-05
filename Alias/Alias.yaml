@@ -1,0 +1,10 @@
+name: Alias
+author: mr-reeh
+description: |-
+  Lets you set up your own command aliases in the chat box - type a short alias
+  and have it silently rewritten into a different command before it's sent.
+  Includes an "Alt Mode" for aliases that need to be resent through the chat
+  box rather than injected directly, and lets you reorder the list with
+  up/down arrows.
+punchline: Type less, alias more.
+repo_url: https://github.com/mr-reeh/Alias

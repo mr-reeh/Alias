@@ -1,0 +1,16 @@
+{
+  "Author": "mr-reeh",
+  "Name": "Alias",
+  "InternalName": "Alias",
+  "AssemblyVersion": "0.1.0.0",
+  "Description": "Lets you set up your own command aliases in the chat box - type a short alias\nand have it silently rewritten into a different command before it's sent.\nIncludes an \"Alt Mode\" for aliases that need to be resent through the chat\nbox rather than injected directly, and lets you reorder the list with\nup/down arrows.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/mr-reeh/Alias",
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Type less, alias more.",
+  "AcceptsFeedback": true
+}

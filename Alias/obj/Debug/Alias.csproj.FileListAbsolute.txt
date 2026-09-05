@@ -1,0 +1,8 @@
+C:\Users\Hayden\Desktop\My Plugins\Alias\Alias\obj\Debug\Alias.csproj.AssemblyReference.cache
+C:\Users\Hayden\Desktop\My Plugins\Alias\Alias\obj\Debug\Alias.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hayden\Desktop\My Plugins\Alias\Alias\obj\Debug\Alias.AssemblyInfoInputs.cache
+C:\Users\Hayden\Desktop\My Plugins\Alias\Alias\obj\Debug\Alias.AssemblyInfo.cs
+C:\Users\Hayden\Desktop\My Plugins\Alias\Alias\obj\Debug\Alias.csproj.CoreCompileInputs.cache
+C:\Users\Hayden\Desktop\My Plugins\Alias\Alias\bin\Debug\Alias.deps.json
+C:\Users\Hayden\Desktop\My Plugins\Alias\Alias\bin\Debug\Alias.dll
+C:\Users\Hayden\Desktop\My Plugins\Alias\Alias\obj\Debug\Alias.dll
